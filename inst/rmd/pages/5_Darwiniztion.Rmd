@@ -1,0 +1,7 @@
+<!-- Page 5 : Darwiniztion -->
+
+Darwiniztion {data-icon="fa-database"}
+=======================================================
+
+<center> <h2> `bdDwC` Darwiniztion Report [TBA] </h2> </center>
+
