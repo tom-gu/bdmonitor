@@ -29,4 +29,4 @@ bdmonitor::build_dashboard()
 
 <!-- TO CHANGE!!! -->
 
-<https://tom-gu.github.io/bdmonitor/>
+<https://tom-gu.github.io/bdmonitor/bdmonitor_dashboard.html>
