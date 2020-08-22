@@ -1,0 +1,577 @@
+<!-- Page 3 : CI_Dev-Dev -->
+
+Dev-Dev {data-navmenu="CI" data-icon="fa-circle-notch"}
+=======================================================
+
+Buttons {data-width=200}
+-------------------------------------
+
+### CI Dev-Dev {.value-box .no-title}
+
+```{r}
+valueBox("[pkg:Dev] - [dep:Dev]", color = "danger")
+
+```
+
+### GitHub Action {.value-box}
+
+```{r}
+valueBox("Trigger all bdverse pkgs",
+         icon = "fa-circle-notch",
+         href="https://github.com/bd-R/bdverse/actions",
+         color = "info")
+
+```
+
+    
+### CI Templates {.value-box}
+
+```{r}
+valueBox("CI Templates",
+         icon = "fa-copy",
+         href="https://github.com/tom-gu/bddummy/tree/master/.github/workflows",
+         color = "success")
+
+```
+
+
+
+Triggered {data-width=400 .tabset .tabset-fade}
+-------------------------------------
+<center> <h4> User Triggered (Push & PR) </h4> </center>
+   
+### MacOs
+<p class="text-muted"> Mac-latest; r-release</p>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+
+
+### Windows
+
+<p class="text-muted"> Win-latest; r-release</p>
+
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+### Ubuntu
+
+<p class="text-muted"> Ubuntu-latest; r-release</p>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+
+### Multi CI
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+
+### All
+
+| Pkg | MacOs | Windows | Ubuntu | Multi-CI |
+|----|---|---|---|---|
+| `bdutilities` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-dev-ex](https://github.com/sunn-e/bddummy/workflows/dev-dev-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdutilities.app` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-dev-ex](https://github.com/sunn-e/bddummy/workflows/dev-dev-ex/badge.svg) |  ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bddwc` |![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-dev-ex](https://github.com/sunn-e/bddummy/workflows/dev-dev-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bddwc.app` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdchecks` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg)  | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdchecks.app` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg)  | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdclean` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg)  | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdverse` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+
+
+
+
+
+
+   
+Scheduled {data-width=400 .tabset .tabset-fade}
+-------------------------------------
+<center> <h4>Scheduled (Daily)</h4> </center>
+   
+### MacOs
+
+<p class="text-muted"> Mac-latest; r-release</p>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+
+
+### Windows
+
+<p class="text-muted"> Win-latest; r-release</p>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+### Ubuntu
+
+<p class="text-muted"> Ubuntu-latest; r-release</p>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+
+### Multi CI
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdutilities.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bddwc.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdchecks.app
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+<div>
+#### bdclean
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+<div>
+#### bdverse
+```{r, out.width=params$badge_width, fig.align='left',  fig.link='https://github.com/sunn-e/bddummy/actions?query=workflow%3Amas-mas-ex+branch%3Amaster+event%3Apull_request+event%3Apush'}
+knitr::include_graphics("https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg")
+```
+</div>
+
+
+
+
+
+### All
+
+| Pkg | MacOs | Windows | Ubuntu | Multi-CI |
+|----|---|---|---|---|
+| `bdutilities` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-dev-ex](https://github.com/sunn-e/bddummy/workflows/dev-dev-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdutilities.app` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-dev-ex](https://github.com/sunn-e/bddummy/workflows/dev-dev-ex/badge.svg) |  ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bddwc` |![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-dev-ex](https://github.com/sunn-e/bddummy/workflows/dev-dev-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bddwc.app` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdchecks` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg)  | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdchecks.app` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg)  | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdclean` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg)  | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |
+| `bdverse` | ![mas-mas-ex](https://github.com/sunn-e/bddummy/workflows/mas-mas-ex/badge.svg)|![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![dev-mas-ex](https://github.com/sunn-e/bddummy/workflows/dev-mas-ex/badge.svg) | ![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg) |

@@ -1,0 +1,53 @@
+---
+title: "`bdmonitor`: Monitoring `bdverse` Pkgs"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: yeti 
+    css: style.css
+    logo: binoculars-solid-white_25x25px.png
+    favicon: binoculars-solid-black.svg
+params:
+  badge_width: '40%' 
+
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+
+<!-- Page 1 : CI_Mas-Mas -->
+
+```{r child='pages/1_CI_Mas-Mas.Rmd'} 
+```
+
+
+
+<!-- Page 2 : CI_Mas-Mas -->
+
+```{r child='pages/2_CI_Dev-Mas.Rmd'} 
+```
+
+
+
+<!-- Page 3 : CI_Dev-Dev -->
+
+```{r child='pages/3_CI_Dev-Dev.Rmd'} 
+```
+
+
+
+<!-- Page 4 : Data_Checks -->
+
+```{r child='pages/4_Data_Checks.Rmd'} 
+```
+
+
+
+<!-- Page 5 : Darwiniztion -->
+
+```{r child='pages/5_Darwiniztion.Rmd'} 
+```
